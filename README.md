@@ -1,1 +1,1 @@
-![Tests](https://github.com/Neugodnikova/characters-project/actions/workflows/test.yml/badge.svg)
+![Node.js CI](https://github.com/Neugodnikova/characters-project/actions/workflows/nodejs.yml/badge.svg)
