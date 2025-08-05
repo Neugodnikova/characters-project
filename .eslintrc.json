@@ -1,0 +1,22 @@
+{
+  "extends": ["airbnb-base"],
+  "rules": {
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never"
+      }
+    ],
+    "linebreak-style": ["error", "windows"],
+    "no-console": "off" 
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js"]
+      }
+    }
+  }
+}

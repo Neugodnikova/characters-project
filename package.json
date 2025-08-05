@@ -1,0 +1,35 @@
+{
+  "name": "ajs-node-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "jest --coverage",
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neugodnikova/ajs-node-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neugodnikova/ajs-node-test/issues"
+  },
+  "homepage": "https://github.com/Neugodnikova/ajs-node-test#readme",
+  "description": "",
+  "dependencies": {
+    "@neugodnikova/ajs": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-loader": "^10.0.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "jest": "^30.0.5"
+  }
+}
